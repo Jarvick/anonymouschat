@@ -7,12 +7,20 @@ $(document).ready(function(){
     $('#send').on('click', function(){
         if (sendChannel == null) receiveChannel.send($('#send2').val());
         if (sendChannel != null) sendChannel.send($('#send2').val());
+        $('#receive').append('<span><span style="color: blue;">я:</span> '+$('#send2').val()+'</span><br>');
         $('#send2').val('').focus();
     });
 
 
     $('#makecon').on('click', function(){
         MakeConn();
+    });
+
+    $('#send2').keypress(function(e) {
+        if(e.which == 13) {
+            //alert('You pressed enter!');
+            $('#send').trigger('click');
+        }
     });
 });
 
