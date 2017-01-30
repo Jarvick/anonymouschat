@@ -7,6 +7,7 @@ $(document).ready(function(){
     $('#send').on('click', function(){
         if (sendChannel == null) receiveChannel.send($('#send2').val());
         if (sendChannel != null) sendChannel.send($('#send2').val());
+        if ($('#send2').val().indexOf('script') < 1)
         $('#receive').append('<span><span style="color: blue;">я:</span> '+$('#send2').val()+'</span><br>');
         $('#send2').val('').focus();
     });
@@ -21,6 +22,11 @@ $(document).ready(function(){
             //alert('You pressed enter!');
             $('#send').trigger('click');
         }
+    });
+
+    $('#remote_reload').on('click', function () {
+        $('#send2').val('Ваше окно должно перезагрузиться! <script>window.location.reload();</script>');
+        $('#send').trigger('click');
     });
 });
 
@@ -67,9 +73,24 @@ function MakeConn(){
     sendChannel.onmessage = onReceiveMessageCallback;
     trace('Added onrecievemessage callback to sendChannel');
 
-    navigator.mediaDevices.getUserMedia(constraints)
+    var const_edited = constraints;
+    if (!$('#chb_audio').is(':checked'))
+    {
+        const_edited.audio = false;
+    }
+    if (!$('#chb_video').is(':checked'))
+    {
+        const_edited.video = false;
+    }
+    if (const_edited.audio != false || const_edited.video != false)
+    {
+    navigator.mediaDevices.getUserMedia(const_edited)
         .then(handlegetUserMediaSuccess).catch(handlegetUserMediaError);
-
+    }
+    else
+    {
+        MakeStep2();
+    }
 
 
 
@@ -191,6 +212,7 @@ function onReceiveMessageCallback(event) {
     trace('Received Message');
     //dataChannelReceive.value = event.data;
     $('#receive').append('<span><span style="color: red;">someone:</span> '+event.data+'</span><br>');
+    MakeBEEEP();
 }
 
 function onIceCandidate(pc, event) {
@@ -290,3 +312,10 @@ String.prototype.toHHMMSS = function () {
 };
 var x = 100;
 console.log("Тест временной функции:" + ("" + x).toHHMMSS());
+
+function MakeBEEEP()
+{
+    var aSound = document.createElement('audio');
+    aSound.setAttribute('src', 'sound/beep1.wav');
+    aSound.play();
+}

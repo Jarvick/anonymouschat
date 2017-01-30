@@ -42,25 +42,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main2.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main2.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.535714" vertical-offset="0" max-vertical-offset="4131">
-              <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.7433832" vertical-offset="884" max-vertical-offset="4624">
+              <caret line="92" column="5" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
               <folding>
                 <element signature="e#0#41#0" expanded="false" />
-                <element signature="e#2605#2651#0" expanded="false" />
+                <element signature="e#3195#3241#0" expanded="false" />
                 <element signature="n#!!block;n#OnSuccessCreateAnswerToOffer#0" expanded="false" />
                 <element signature="n#!!block;n#onCreateSessionDescriptionError#0" expanded="false" />
                 <element signature="n#!!block;n#onIceCandidate#0" expanded="false" />
-                <element signature="e#6577#6831#0" expanded="false" />
+                <element signature="e#7184#7438#0" expanded="false" />
                 <element signature="n#!!block;n#onAddIceCandidateSuccess#0" expanded="false" />
                 <element signature="n#!!block;n#onAddIceCandidateError#0" expanded="false" />
                 <element signature="n#!!block;n#getOtherPc#0" expanded="false" />
                 <element signature="n#!!block;n#getName#0" expanded="false" />
                 <element signature="n#!!block;n#errorMsg#0" expanded="false" />
-                <marker date="1485778401447" expanded="true" signature="347:359" placeholder="..." />
-                <marker date="1485778401447" expanded="true" signature="6012:6023" placeholder="..." />
+                <marker date="1485786824914" expanded="true" signature="400:412" placeholder="..." />
+                <marker date="1485786824914" expanded="true" signature="6602:6613" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -108,11 +108,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6486797" vertical-offset="13" max-vertical-offset="884">
-              <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
+            <state vertical-scroll-proportion="-20.423077" vertical-offset="13" max-vertical-offset="1105">
+              <caret line="32" column="44" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -136,8 +136,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/js/main2.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/main2.js" />
       </list>
     </option>
   </component>
@@ -338,18 +338,18 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#41#0" expanded="false" />
-            <element signature="e#2605#2651#0" expanded="false" />
+            <element signature="e#3195#3241#0" expanded="false" />
             <element signature="n#!!block;n#OnSuccessCreateAnswerToOffer#0" expanded="false" />
             <element signature="n#!!block;n#onCreateSessionDescriptionError#0" expanded="false" />
             <element signature="n#!!block;n#onIceCandidate#0" expanded="false" />
-            <element signature="e#6577#6831#0" expanded="false" />
+            <element signature="e#7184#7438#0" expanded="false" />
             <element signature="n#!!block;n#onAddIceCandidateSuccess#0" expanded="false" />
             <element signature="n#!!block;n#onAddIceCandidateError#0" expanded="false" />
             <element signature="n#!!block;n#getOtherPc#0" expanded="false" />
             <element signature="n#!!block;n#getName#0" expanded="false" />
             <element signature="n#!!block;n#errorMsg#0" expanded="false" />
-            <marker date="1485778401447" expanded="true" signature="347:359" placeholder="..." />
-            <marker date="1485778401447" expanded="true" signature="6012:6023" placeholder="..." />
+            <marker date="1485786824914" expanded="true" signature="400:412" placeholder="..." />
+            <marker date="1485786824914" expanded="true" signature="6602:6613" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -404,18 +404,18 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#41#0" expanded="false" />
-            <element signature="e#2605#2651#0" expanded="false" />
+            <element signature="e#3195#3241#0" expanded="false" />
             <element signature="n#!!block;n#OnSuccessCreateAnswerToOffer#0" expanded="false" />
             <element signature="n#!!block;n#onCreateSessionDescriptionError#0" expanded="false" />
             <element signature="n#!!block;n#onIceCandidate#0" expanded="false" />
-            <element signature="e#6577#6831#0" expanded="false" />
+            <element signature="e#7184#7438#0" expanded="false" />
             <element signature="n#!!block;n#onAddIceCandidateSuccess#0" expanded="false" />
             <element signature="n#!!block;n#onAddIceCandidateError#0" expanded="false" />
             <element signature="n#!!block;n#getOtherPc#0" expanded="false" />
             <element signature="n#!!block;n#getName#0" expanded="false" />
             <element signature="n#!!block;n#errorMsg#0" expanded="false" />
-            <marker date="1485778401447" expanded="true" signature="347:359" placeholder="..." />
-            <marker date="1485778401447" expanded="true" signature="6012:6023" placeholder="..." />
+            <marker date="1485786824914" expanded="true" signature="400:412" placeholder="..." />
+            <marker date="1485786824914" expanded="true" signature="6602:6613" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -572,33 +572,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.423077" vertical-offset="13" max-vertical-offset="1105">
+          <caret line="32" column="44" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/main2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.535714" vertical-offset="0" max-vertical-offset="4131">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.7433832" vertical-offset="884" max-vertical-offset="4624">
+          <caret line="92" column="5" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
           <folding>
             <element signature="e#0#41#0" expanded="false" />
-            <element signature="e#2605#2651#0" expanded="false" />
+            <element signature="e#3195#3241#0" expanded="false" />
             <element signature="n#!!block;n#OnSuccessCreateAnswerToOffer#0" expanded="false" />
             <element signature="n#!!block;n#onCreateSessionDescriptionError#0" expanded="false" />
             <element signature="n#!!block;n#onIceCandidate#0" expanded="false" />
-            <element signature="e#6577#6831#0" expanded="false" />
+            <element signature="e#7184#7438#0" expanded="false" />
             <element signature="n#!!block;n#onAddIceCandidateSuccess#0" expanded="false" />
             <element signature="n#!!block;n#onAddIceCandidateError#0" expanded="false" />
             <element signature="n#!!block;n#getOtherPc#0" expanded="false" />
             <element signature="n#!!block;n#getName#0" expanded="false" />
             <element signature="n#!!block;n#errorMsg#0" expanded="false" />
-            <marker date="1485778401447" expanded="true" signature="347:359" placeholder="..." />
-            <marker date="1485778401447" expanded="true" signature="6012:6023" placeholder="..." />
+            <marker date="1485786824914" expanded="true" signature="400:412" placeholder="..." />
+            <marker date="1485786824914" expanded="true" signature="6602:6613" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6486797" vertical-offset="13" max-vertical-offset="884">
-          <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
